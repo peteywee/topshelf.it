@@ -1,0 +1,17 @@
+{
+  "name": "Top Shelf Service LLC",
+  "short_name": "Top Shelf",
+  "description": "Operational systems, training infrastructure, and execution tools for service businesses.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#050507",
+  "theme_color": "#050507",
+  "icons": [
+    {
+      "src": "/assets/icons/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
