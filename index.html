@@ -3,168 +3,374 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Topshelf — Premium Quality, Delivered</title>
-  <meta name="description" content="Topshelf.it — discover and showcase the finest products, tools, and experiences curated just for you." />
-  <link rel="stylesheet" href="styles.css" />
+
+  <title>Top Shelf Service LLC — Operational Systems for Service Businesses</title>
+  <meta name="description" content="Top Shelf Service LLC delivers operational systems, training infrastructure, and execution tools that help service businesses run cleaner, scale faster, and perform at the highest level." />
+  <link rel="canonical" href="https://topshelfservicepros.com/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://topshelfservicepros.com/" />
+  <meta property="og:title" content="Top Shelf Service LLC — Operational Systems for Service Businesses" />
+  <meta property="og:description" content="Operational systems, training infrastructure, and execution tools that help service businesses run cleaner, scale faster, and perform at the highest level." />
+  <meta property="og:image" content="https://topshelfservicepros.com/assets/icons/favicon.svg" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Top Shelf Service LLC — Operational Systems for Service Businesses" />
+  <meta name="twitter:description" content="Operational systems, training infrastructure, and execution tools for service businesses." />
+
+  <!-- Favicon & Manifest -->
+  <link rel="icon" href="/assets/icons/favicon.svg" type="image/svg+xml" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <meta name="theme-color" content="#050507" />
+
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="/assets/css/styles.css" />
 </head>
 <body>
-  <!-- Navigation -->
-  <nav class="nav">
-    <div class="nav__inner">
-      <a href="/" class="nav__logo">
-        <span class="nav__logo-icon">✦</span>
-        topshelf
-      </a>
-      <ul class="nav__links">
-        <li><a href="#features">Features</a></li>
-        <li><a href="#how-it-works">How it works</a></li>
-        <li><a href="#contact" class="btn btn--sm btn--primary">Get early access</a></li>
-      </ul>
-    </div>
-  </nav>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
 
-  <!-- Hero -->
-  <section class="hero">
-    <div class="container">
-      <div class="hero__badge">Now in early access</div>
-      <h1 class="hero__headline">
-        The top shelf<br />is for the best.
-      </h1>
-      <p class="hero__subheadline">
-        Topshelf helps you discover, curate, and share the finest products,
-        tools, and experiences — all in one beautiful place.
-      </p>
-      <div class="hero__cta">
-        <a href="#contact" class="btn btn--primary btn--lg">Get early access</a>
-        <a href="#how-it-works" class="btn btn--ghost btn--lg">See how it works</a>
-      </div>
-    </div>
-    <div class="hero__bg-blur hero__bg-blur--1"></div>
-    <div class="hero__bg-blur hero__bg-blur--2"></div>
-  </section>
+  <div class="site-shell">
 
-  <!-- Features -->
-  <section class="features" id="features">
-    <div class="container">
-      <h2 class="section-title">Built for quality, not quantity</h2>
-      <p class="section-subtitle">
-        Everything on Topshelf has been hand-picked or personally vouched for.
-        No noise — just the good stuff.
-      </p>
-      <div class="features__grid">
-        <div class="feature-card">
-          <div class="feature-card__icon">🏷️</div>
-          <h3>Curated collections</h3>
-          <p>Create and share themed lists of products, tools, and resources you genuinely love.</p>
-        </div>
-        <div class="feature-card">
-          <div class="feature-card__icon">🔍</div>
-          <h3>Smart discovery</h3>
-          <p>Find exactly what you need through intelligent recommendations tailored to your tastes.</p>
-        </div>
-        <div class="feature-card">
-          <div class="feature-card__icon">⭐</div>
-          <h3>Trusted reviews</h3>
-          <p>Every review comes from real people who actually own and use what they recommend.</p>
-        </div>
-        <div class="feature-card">
-          <div class="feature-card__icon">🚀</div>
-          <h3>Lightning fast</h3>
-          <p>Delivered globally over Cloudflare's edge network — pages load in milliseconds, anywhere.</p>
-        </div>
-        <div class="feature-card">
-          <div class="feature-card__icon">🎨</div>
-          <h3>Beautiful profiles</h3>
-          <p>Your public shelf is a visual showcase — clean, customisable, and shareable.</p>
-        </div>
-        <div class="feature-card">
-          <div class="feature-card__icon">🔒</div>
-          <h3>Private shelves</h3>
-          <p>Keep personal wishlists and private notes entirely to yourself.</p>
+    <!-- ═══ HEADER ═══ -->
+    <header class="site-header">
+      <div class="container">
+        <div class="header-inner">
+          <a href="/" class="brand" aria-label="Top Shelf Service LLC home">
+            <span class="brand-mark" aria-hidden="true"></span>
+            <span class="brand-text">
+              <span class="brand-name">Top Shelf Service</span>
+              <span class="brand-tag">LLC</span>
+            </span>
+          </a>
+
+          <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+            <ul>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#process">Process</a></li>
+              <li><a href="#principles">Principles</a></li>
+              <li><a href="#fit">Who it's for</a></li>
+              <li><a href="#pricing">Pricing</a></li>
+            </ul>
+            <a href="#contact" class="button button-primary button-sm">Work with us</a>
+          </nav>
+
+          <button
+            class="nav-toggle"
+            aria-controls="site-nav"
+            aria-expanded="false"
+            aria-label="Open navigation"
+            type="button"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
         </div>
       </div>
-    </div>
-  </section>
+    </header>
 
-  <!-- How it works -->
-  <section class="how-it-works" id="how-it-works">
-    <div class="container">
-      <h2 class="section-title">How it works</h2>
-      <p class="section-subtitle">Three simple steps to build your top shelf.</p>
-      <ol class="steps">
-        <li class="step">
-          <div class="step__number">01</div>
-          <div class="step__content">
-            <h3>Create your shelf</h3>
-            <p>Sign up and start adding items you love — products, tools, books, apps, anything goes.</p>
-          </div>
-        </li>
-        <li class="step">
-          <div class="step__number">02</div>
-          <div class="step__content">
-            <h3>Organise into collections</h3>
-            <p>Group items into themed shelves like "Everyday carry", "Morning routine", or "Dev setup".</p>
-          </div>
-        </li>
-        <li class="step">
-          <div class="step__number">03</div>
-          <div class="step__content">
-            <h3>Share with the world</h3>
-            <p>Publish your shelf and let others discover the best things through your personal curation.</p>
-          </div>
-        </li>
-      </ol>
-    </div>
-  </section>
+    <main id="main-content">
 
-  <!-- CTA / Contact -->
-  <section class="cta-section" id="contact">
-    <div class="container">
-      <div class="cta-card">
-        <h2>Be first on the shelf.</h2>
-        <p>Join the early access waitlist and get notified the moment we open the doors.</p>
-        <form class="waitlist-form" onsubmit="handleSubmit(event)">
-          <input
-            type="email"
-            name="email"
-            class="waitlist-form__input"
-            placeholder="you@example.com"
-            required
-            autocomplete="email"
-          />
-          <button type="submit" class="btn btn--primary btn--lg">Join waitlist</button>
-        </form>
-        <p class="cta-card__footnote">No spam. Unsubscribe anytime.</p>
+      <!-- ═══ HERO ═══ -->
+      <section class="section section-hero">
+        <div class="container">
+          <div class="hero-grid">
+            <div class="hero-copy">
+              <p class="eyebrow" aria-hidden="true">Top Shelf Service LLC</p>
+              <h1>Run a tighter operation.</h1>
+              <p class="hero-lead">Operational systems, training infrastructure, and execution tools that help service businesses perform at the highest level.</p>
+              <p class="hero-subcopy">We build the back-end of great service companies — the processes, playbooks, and personnel frameworks that separate elite operators from everyone else.</p>
+              <div class="hero-actions">
+                <a href="#contact" class="button button-primary">Start the conversation</a>
+                <a href="#services" class="button button-outline">See what we do</a>
+              </div>
+              <p class="trust-line">Trusted by owner-operators, GMs, and regional directors across the trades, hospitality, and field services.</p>
+            </div>
+
+            <div class="hero-panel" aria-hidden="true">
+              <div class="panel-frame">
+                <div class="panel-header">
+                  <span class="panel-dot panel-dot-green"></span>
+                  <span class="panel-title">Operational Health — Live View</span>
+                </div>
+                <div class="signal-grid">
+                  <div class="signal-card">
+                    <span class="signal-kicker">Training</span>
+                    <h3>Onboarding complete</h3>
+                    <p>New technician certified in 11 days vs. 28-day baseline.</p>
+                  </div>
+                  <div class="signal-card">
+                    <span class="signal-kicker">Systems</span>
+                    <h3>SOP library live</h3>
+                    <p>47 procedures documented, versioned, and deployed to the field.</p>
+                  </div>
+                  <div class="signal-card">
+                    <span class="signal-kicker">Execution</span>
+                    <h3>Callback rate ↓ 34%</h3>
+                    <p>Quality checkpoint framework reduced repeat visits in 60 days.</p>
+                  </div>
+                  <div class="signal-card">
+                    <span class="signal-kicker">Growth</span>
+                    <h3>Ready to scale</h3>
+                    <p>Org structure and hiring runbooks in place for the next 3 hires.</p>
+                  </div>
+                </div>
+                <div class="panel-footer">
+                  <div class="panel-stat">
+                    <span class="panel-stat-label">Avg. ramp time</span>
+                    <strong>↓ 58%</strong>
+                  </div>
+                  <div class="panel-stat">
+                    <span class="panel-stat-label">Operator satisfaction</span>
+                    <strong>4.9 / 5</strong>
+                  </div>
+                  <div class="panel-stat">
+                    <span class="panel-stat-label">SOPs delivered</span>
+                    <strong>100%</strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ═══ DIVIDER ═══ -->
+      <div class="section section-divider" aria-hidden="true">
+        <div class="container"><div class="rule"></div></div>
       </div>
-    </div>
-  </section>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container footer__inner">
-      <a href="/" class="nav__logo">
-        <span class="nav__logo-icon">✦</span>
-        topshelf
-      </a>
-      <p class="footer__copy">&copy; 2026 topshelf.it — all rights reserved.</p>
-    </div>
-  </footer>
+      <!-- ═══ SERVICES ═══ -->
+      <section class="section" id="services">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">What we deliver</p>
+            <h2>Built for how service businesses actually work.</h2>
+            <p>Every engagement produces tangible assets — not slide decks. You leave with documented systems your team can use on day one.</p>
+          </div>
+          <div class="card-grid card-grid-3">
+            <div class="feature-card">
+              <span class="feature-icon" aria-hidden="true">01</span>
+              <h3>Operational Playbooks</h3>
+              <p>Custom SOPs, checklists, and escalation paths tailored to your service model. Written in plain language your crew will actually read.</p>
+            </div>
+            <div class="feature-card">
+              <span class="feature-icon" aria-hidden="true">02</span>
+              <h3>Training Infrastructure</h3>
+              <p>Onboarding tracks, skills assessments, and field certification frameworks that cut ramp time and raise your hiring floor.</p>
+            </div>
+            <div class="feature-card">
+              <span class="feature-icon" aria-hidden="true">03</span>
+              <h3>Quality Control Systems</h3>
+              <p>Inspection frameworks, callback-reduction protocols, and scorecard tools that close the loop between frontline performance and owner insight.</p>
+            </div>
+            <div class="feature-card">
+              <span class="feature-icon" aria-hidden="true">04</span>
+              <h3>Org Design &amp; Role Clarity</h3>
+              <p>Position blueprints, accountability maps, and reporting structures designed for lean service teams that are ready to add headcount.</p>
+            </div>
+            <div class="feature-card">
+              <span class="feature-icon" aria-hidden="true">05</span>
+              <h3>Performance Frameworks</h3>
+              <p>KPI dashboards, review cadences, and coaching guides that give managers the language and data to lead — not just manage.</p>
+            </div>
+            <div class="feature-card">
+              <span class="feature-icon" aria-hidden="true">06</span>
+              <h3>Scale Readiness Audits</h3>
+              <p>A structured diagnostic of your current operations — identifying the exact gaps blocking your next stage of growth before you hire or expand.</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-  <script>
-    function handleSubmit(e) {
-      e.preventDefault();
-      const form = e.target;
-      const email = form.querySelector('input[type="email"]').value;
-      const msg = document.createElement('p');
-      msg.className = 'waitlist-form__success';
-      const strong = document.createElement('strong');
-      strong.textContent = email;
-      msg.append('🎉 You\'re on the list! We\'ll be in touch at ', strong, '.');
-      form.replaceWith(msg);
-    }
-  </script>
+      <!-- ═══ DIVIDER ═══ -->
+      <div class="section section-divider" aria-hidden="true">
+        <div class="container"><div class="rule"></div></div>
+      </div>
+
+      <!-- ═══ PROCESS ═══ -->
+      <section class="section" id="process">
+        <div class="container">
+          <div class="two-column">
+            <div class="section-heading compact">
+              <p class="eyebrow">How we work</p>
+              <h2>No fluff. Just execution.</h2>
+              <p>Our process is designed around one output: operational assets your team uses the week we deliver them.</p>
+            </div>
+            <div class="stack-list">
+              <div class="stack-item">
+                <h3>1. Operational Audit</h3>
+                <p>We spend time in your world — reviewing your current workflows, talking to your team, and mapping every gap between where you are and where you need to be.</p>
+              </div>
+              <div class="stack-item">
+                <h3>2. Systems Design</h3>
+                <p>We build the playbooks, frameworks, and training assets based on your actual service model — not generic templates borrowed from a different industry.</p>
+              </div>
+              <div class="stack-item">
+                <h3>3. Implementation Support</h3>
+                <p>We roll out the systems with your leadership team, train your trainers, and stay close through the first 30 days to ensure adoption.</p>
+              </div>
+              <div class="stack-item">
+                <h3>4. Measurement &amp; Iteration</h3>
+                <p>We track the metrics that matter — ramp time, callback rate, retention, throughput — and refine the systems until the numbers move.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ═══ DIVIDER ═══ -->
+      <div class="section section-divider" aria-hidden="true">
+        <div class="container"><div class="rule"></div></div>
+      </div>
+
+      <!-- ═══ PRINCIPLES ═══ -->
+      <section class="section section-highlight" id="principles">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">How we think</p>
+            <h2>The principles behind our work.</h2>
+            <p>Everything we build is grounded in a few operating beliefs we've tested across real service businesses.</p>
+          </div>
+          <div class="card-grid principles-grid">
+            <div class="principle-card">
+              <h3>Documentation is a leadership tool.</h3>
+              <p>A written process is the highest-leverage thing a service business owner can create. It removes you from the critical path and makes every hire more valuable.</p>
+            </div>
+            <div class="principle-card">
+              <h3>Standards beat supervision.</h3>
+              <p>You can't watch everything. A well-designed standard runs on its own — in the field, without a manager present, at 6 am on a Monday.</p>
+            </div>
+            <div class="principle-card">
+              <h3>Systems enable people.</h3>
+              <p>Great people leave companies with bad systems. Good systems make average people excellent and let your best people focus on the work that actually requires judgment.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ═══ DIVIDER ═══ -->
+      <div class="section section-divider" aria-hidden="true">
+        <div class="container"><div class="rule"></div></div>
+      </div>
+
+      <!-- ═══ WHO IT'S FOR ═══ -->
+      <section class="section" id="fit">
+        <div class="container">
+          <div class="two-column fit-layout">
+            <div class="section-heading compact">
+              <p class="eyebrow">Who we work with</p>
+              <h2>The right fit matters.</h2>
+              <p>We work best with operators who are serious about building something that outlasts them personally — not just growing revenue.</p>
+            </div>
+            <div class="audience-panel">
+              <p class="eyebrow">You're a good fit if you…</p>
+              <ul class="audience-list">
+                <li>Run a trades, field service, or hospitality business with 5–100 employees</li>
+                <li>Are the owner, GM, or director responsible for operational performance</li>
+                <li>Know your process problems but don't have time to document and fix them yourself</li>
+                <li>Are preparing to hire, expand to a new location, or bring on a partner</li>
+                <li>Want to reduce your personal dependency on the day-to-day operation</li>
+                <li>Have tried generic consulting before and found it didn't stick</li>
+              </ul>
+              <p class="audience-note">We take on a small number of engagements each quarter. Reach out early if you're planning ahead.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ═══ DIVIDER ═══ -->
+      <div class="section section-divider" aria-hidden="true">
+        <div class="container"><div class="rule"></div></div>
+      </div>
+
+      <!-- ═══ PRICING ═══ -->
+      <section class="section section-highlight" id="pricing">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Engagement models</p>
+            <h2>Priced for the work, not the clock.</h2>
+            <p>We structure engagements around outcomes, not billable hours. You know exactly what you're getting before we start.</p>
+          </div>
+          <div class="card-grid model-grid">
+            <div class="model-card">
+              <h3>Audit &amp; Roadmap</h3>
+              <p>A focused diagnostic of your current operation — gap analysis, priority ranking, and a 90-day action plan. Best for businesses not yet ready for a full build-out.</p>
+            </div>
+            <div class="model-card model-card-accent">
+              <h3>Systems Build</h3>
+              <p>Full-scope delivery: playbooks, training frameworks, org design, and QC tools. Includes implementation support and the first 30-day adoption checkpoint.</p>
+            </div>
+            <div class="model-card">
+              <h3>Ongoing Partnership</h3>
+              <p>Retained access to our team for system updates, new-role onboarding, and strategic operations support as your business evolves.</p>
+            </div>
+          </div>
+          <p class="model-note">Pricing is based on scope and business size. <a href="#contact" style="color:var(--ts-green);text-underline-offset:0.18em;">Contact us</a> to discuss your situation and get an honest proposal.</p>
+        </div>
+      </section>
+
+      <!-- ═══ CTA ═══ -->
+      <section class="section cta-section" id="contact">
+        <div class="container">
+          <div class="cta-panel">
+            <div class="cta-copy">
+              <p class="eyebrow">Ready to start</p>
+              <h2>Let's build a tighter operation.</h2>
+              <p>Tell us what you're working with and we'll respond within one business day. No pitch decks — just a real conversation about what you need.</p>
+            </div>
+            <div class="cta-actions">
+              <a href="mailto:hello@topshelfservicepros.com" class="button button-primary">Send us a message</a>
+              <!-- TODO: replace with actual business phone number before deployment -->
+              <a href="tel:+1-800-000-0000" class="button button-outline">Or call us directly</a>
+              <p class="contact-note">
+                Prefer email? Reach us at <a href="mailto:hello@topshelfservicepros.com">hello@topshelfservicepros.com</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- ═══ FOOTER ═══ -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-inner">
+          <div>
+            <a href="/" class="brand brand-footer" aria-label="Top Shelf Service LLC home">
+              <span class="brand-mark" aria-hidden="true"></span>
+              <span class="brand-text">
+                <span class="brand-name">Top Shelf Service</span>
+                <span class="brand-tag">LLC</span>
+              </span>
+            </a>
+            <p class="footer-microcopy">Operational systems, training infrastructure, and execution tools for service businesses that want to perform at the highest level.</p>
+          </div>
+          <nav class="footer-nav" aria-label="Footer navigation">
+            <a href="#services">Services</a>
+            <a href="#process">Process</a>
+            <a href="#principles">Principles</a>
+            <a href="#fit">Who it's for</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#contact">Contact</a>
+          </nav>
+        </div>
+        <div class="footer-bottom">
+          <p style="color:var(--text-soft)">&copy; 2026 Top Shelf Service LLC. All rights reserved.</p>
+          <p style="color:var(--text-soft)">topshelfservicepros.com</p>
+        </div>
+      </div>
+    </footer>
+
+  </div><!-- /.site-shell -->
+
+  <script src="/assets/js/main.js"></script>
 </body>
 </html>
