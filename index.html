@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Topshelf — Premium Quality, Delivered</title>
+  <meta name="description" content="Topshelf.it — discover and showcase the finest products, tools, and experiences curated just for you." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="/" class="nav__logo">
+        <span class="nav__logo-icon">✦</span>
+        topshelf
+      </a>
+      <ul class="nav__links">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#how-it-works">How it works</a></li>
+        <li><a href="#contact" class="btn btn--sm btn--primary">Get early access</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero__badge">Now in early access</div>
+      <h1 class="hero__headline">
+        The top shelf<br />is for the best.
+      </h1>
+      <p class="hero__subheadline">
+        Topshelf helps you discover, curate, and share the finest products,
+        tools, and experiences — all in one beautiful place.
+      </p>
+      <div class="hero__cta">
+        <a href="#contact" class="btn btn--primary btn--lg">Get early access</a>
+        <a href="#how-it-works" class="btn btn--ghost btn--lg">See how it works</a>
+      </div>
+    </div>
+    <div class="hero__bg-blur hero__bg-blur--1"></div>
+    <div class="hero__bg-blur hero__bg-blur--2"></div>
+  </section>
+
+  <!-- Features -->
+  <section class="features" id="features">
+    <div class="container">
+      <h2 class="section-title">Built for quality, not quantity</h2>
+      <p class="section-subtitle">
+        Everything on Topshelf has been hand-picked or personally vouched for.
+        No noise — just the good stuff.
+      </p>
+      <div class="features__grid">
+        <div class="feature-card">
+          <div class="feature-card__icon">🏷️</div>
+          <h3>Curated collections</h3>
+          <p>Create and share themed lists of products, tools, and resources you genuinely love.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">🔍</div>
+          <h3>Smart discovery</h3>
+          <p>Find exactly what you need through intelligent recommendations tailored to your tastes.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">⭐</div>
+          <h3>Trusted reviews</h3>
+          <p>Every review comes from real people who actually own and use what they recommend.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">🚀</div>
+          <h3>Lightning fast</h3>
+          <p>Delivered globally over Cloudflare's edge network — pages load in milliseconds, anywhere.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">🎨</div>
+          <h3>Beautiful profiles</h3>
+          <p>Your public shelf is a visual showcase — clean, customisable, and shareable.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">🔒</div>
+          <h3>Private shelves</h3>
+          <p>Keep personal wishlists and private notes entirely to yourself.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section class="how-it-works" id="how-it-works">
+    <div class="container">
+      <h2 class="section-title">How it works</h2>
+      <p class="section-subtitle">Three simple steps to build your top shelf.</p>
+      <ol class="steps">
+        <li class="step">
+          <div class="step__number">01</div>
+          <div class="step__content">
+            <h3>Create your shelf</h3>
+            <p>Sign up and start adding items you love — products, tools, books, apps, anything goes.</p>
+          </div>
+        </li>
+        <li class="step">
+          <div class="step__number">02</div>
+          <div class="step__content">
+            <h3>Organise into collections</h3>
+            <p>Group items into themed shelves like "Everyday carry", "Morning routine", or "Dev setup".</p>
+          </div>
+        </li>
+        <li class="step">
+          <div class="step__number">03</div>
+          <div class="step__content">
+            <h3>Share with the world</h3>
+            <p>Publish your shelf and let others discover the best things through your personal curation.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- CTA / Contact -->
+  <section class="cta-section" id="contact">
+    <div class="container">
+      <div class="cta-card">
+        <h2>Be first on the shelf.</h2>
+        <p>Join the early access waitlist and get notified the moment we open the doors.</p>
+        <form class="waitlist-form" onsubmit="handleSubmit(event)">
+          <input
+            type="email"
+            name="email"
+            class="waitlist-form__input"
+            placeholder="you@example.com"
+            required
+            autocomplete="email"
+          />
+          <button type="submit" class="btn btn--primary btn--lg">Join waitlist</button>
+        </form>
+        <p class="cta-card__footnote">No spam. Unsubscribe anytime.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a href="/" class="nav__logo">
+        <span class="nav__logo-icon">✦</span>
+        topshelf
+      </a>
+      <p class="footer__copy">&copy; 2026 topshelf.it — all rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    function handleSubmit(e) {
+      e.preventDefault();
+      const form = e.target;
+      const email = form.querySelector('input[type="email"]').value;
+      const msg = document.createElement('p');
+      msg.className = 'waitlist-form__success';
+      const strong = document.createElement('strong');
+      strong.textContent = email;
+      msg.append('🎉 You\'re on the list! We\'ll be in touch at ', strong, '.');
+      form.replaceWith(msg);
+    }
+  </script>
+</body>
+</html>
