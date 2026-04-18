@@ -27,7 +27,6 @@ npx serve .
 ├── robots.txt              Crawler rules
 ├── site.webmanifest        PWA manifest
 ├── _headers                Cloudflare security + cache headers
-├── wrangler.toml           Cloudflare Pages config
 └── README.md               This file
 ```
 
@@ -51,6 +50,8 @@ npx serve .
 ```bash
 npx wrangler pages deploy . --project-name=topshelf-it
 ```
+
+Do not use `wrangler deploy` for this project. This repository is a static Cloudflare Pages site, not a Worker deployment.
 
 ## Notes
 
